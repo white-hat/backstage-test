@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-test
+  description: Testing backstage
+  tags:
+    - test
+    - demo
+spec:
+  type: microfrontend
+  lifecycle: production
+  owner: myself
+  system: core
+  dependsOn:
+    - component:github
+  consumesApis:
+    - none-api
