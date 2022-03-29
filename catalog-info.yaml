@@ -6,6 +6,8 @@ metadata:
   tags:
     - test
     - demo
+  annotations:
+    kafka.apache.org/consumer-groups: quickstart/quickstart
 spec:
   type: microfrontend
   lifecycle: production
