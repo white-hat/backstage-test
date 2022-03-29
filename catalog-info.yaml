@@ -8,6 +8,7 @@ metadata:
     - demo
   annotations:
     kafka.apache.org/consumer-groups: quickstart/quickstart
+    backstage.io/kubernetes-label-selector: "app.kubernetes.io/component=backstage-test"
 spec:
   type: microfrontend
   lifecycle: production
