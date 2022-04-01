@@ -10,7 +10,7 @@ metadata:
     kafka.apache.org/consumer-groups: quickstart/quickstart
     backstage.io/kubernetes-label-selector: "app.kubernetes.io/component=backstage-test"
 spec:
-  type: microfrontend
+  type: service
   lifecycle: production
   owner: myself
   system: core
