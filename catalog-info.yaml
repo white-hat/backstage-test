@@ -7,7 +7,7 @@ metadata:
     - test
     - demo
   annotations:
-    kafka.apache.org/consumer-groups: localhost/console-consumer-58999
+    kafka.apache.org/consumer-groups: localhost/demo
     backstage.io/kubernetes-label-selector: "app.kubernetes.io/component=backstage-test"
 spec:
   type: service
